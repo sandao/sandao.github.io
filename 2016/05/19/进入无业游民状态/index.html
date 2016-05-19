@@ -84,16 +84,28 @@
 
 
 
-<meta name="description" content="&amp;#x4ECA;&amp;#x5929;&amp;#x4ECE;&amp;#x516C;&amp;#x53F8;&amp;#x79BB;&amp;#x804C;&amp;#x4E86;&amp;#xFF0C;&amp;#x6216;&amp;#x8005;&amp;#x8BF4;&amp;#x88AB;&amp;#x89E3;&amp;#x96C7;&amp;#x4E86;&amp;#xFF0C;&amp;#x5F53;&amp;#x7136;&amp;#xFF0C;&amp;#x6211;&amp;#x672C;&amp;#x6765;&amp;#x7684;&amp;#x8B">
+<meta name="description" content="&amp;lt;script&amp;gt;
+  function editAtGithub(isRaw){
+    var urlparts = document.location.pathname.split(&amp;apos;/&amp;apos;);
+    var postname = urlparts[urlparts.length - 2];
+    if(urlparts.length == 3){ //">
 <meta property="og:type" content="article">
 <meta property="og:title" content="进入无业游民状态">
 <meta property="og:url" content="http://sandao.lol/2016/05/19/进入无业游民状态/index.html">
 <meta property="og:site_name" content="龙门客栈">
-<meta property="og:description" content="&amp;#x4ECA;&amp;#x5929;&amp;#x4ECE;&amp;#x516C;&amp;#x53F8;&amp;#x79BB;&amp;#x804C;&amp;#x4E86;&amp;#xFF0C;&amp;#x6216;&amp;#x8005;&amp;#x8BF4;&amp;#x88AB;&amp;#x89E3;&amp;#x96C7;&amp;#x4E86;&amp;#xFF0C;&amp;#x5F53;&amp;#x7136;&amp;#xFF0C;&amp;#x6211;&amp;#x672C;&amp;#x6765;&amp;#x7684;&amp;#x8B">
+<meta property="og:description" content="&amp;lt;script&amp;gt;
+  function editAtGithub(isRaw){
+    var urlparts = document.location.pathname.split(&amp;apos;/&amp;apos;);
+    var postname = urlparts[urlparts.length - 2];
+    if(urlparts.length == 3){ //">
 <meta property="og:updated_time" content="2016-05-18T18:08:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="进入无业游民状态">
-<meta name="twitter:description" content="&amp;#x4ECA;&amp;#x5929;&amp;#x4ECE;&amp;#x516C;&amp;#x53F8;&amp;#x79BB;&amp;#x804C;&amp;#x4E86;&amp;#xFF0C;&amp;#x6216;&amp;#x8005;&amp;#x8BF4;&amp;#x88AB;&amp;#x89E3;&amp;#x96C7;&amp;#x4E86;&amp;#xFF0C;&amp;#x5F53;&amp;#x7136;&amp;#xFF0C;&amp;#x6211;&amp;#x672C;&amp;#x6765;&amp;#x7684;&amp;#x8B">
+<meta name="twitter:description" content="&amp;lt;script&amp;gt;
+  function editAtGithub(isRaw){
+    var urlparts = document.location.pathname.split(&amp;apos;/&amp;apos;);
+    var postname = urlparts[urlparts.length - 2];
+    if(urlparts.length == 3){ //">
 
 
 
@@ -300,6 +312,23 @@
         
 
 <p>
+&lt;script&gt;
+  function editAtGithub(isRaw){
+    var url<sub>parts</sub> = document.location.pathname.split(&apos;/&apos;);
+    var postname = url<sub>parts[url</sub><sub>parts</sub>.length - 2];
+    if(url<sub>parts</sub>.length == 3){ // is a page(wiki about etc)
+      postname = postname + &apos;/index.org&apos;;
+    }else{
+      postname = &apos;<sub>posts</sub>/&apos; + postname + &apos;.org&apos;;
+    }
+    var url = &apos;https://github.com/CodeFalling/codefalling.com/tree/source/source/&apos; + postname;
+    if(isRaw)
+      url = &apos;https://raw.githubusercontent.com/CodeFalling/codefalling.com/source/source/&apos; + postname;
+    window.open(url);
+  }
+&lt;/script&gt;
+</p>
+<p>
 &#x4ECA;&#x5929;&#x4ECE;&#x516C;&#x53F8;&#x79BB;&#x804C;&#x4E86;&#xFF0C;&#x6216;&#x8005;&#x8BF4;&#x88AB;&#x89E3;&#x96C7;&#x4E86;&#xFF0C;&#x5F53;&#x7136;&#xFF0C;&#x6211;&#x672C;&#x6765;&#x7684;&#x8BA1;&#x5212;&#x4E5F;&#x662F;&#x6708;&#x5E95;&#x5C31;&#x79BB;&#x804C;&#xFF01;
 </p>
 
@@ -344,7 +373,8 @@
 </li>
 </ul>
 
-Last Updated 2016-05-19 Thu 02:08.<br>Render by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 24.5.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+<div style="font-size: 14px;padding: 5px;line-height: 20px;border: 1px solid;"><a href="javascript: editAtGithub();" target="_blank" rel="external">Edit Me at Github</a> - <a href="javascript: editAtGithub(true)" target="_blank" rel="external">Org Source</a> - Last Updated 2016-05-19 Thu 02:08.<br>Render by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 24.5.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)</div>
+
       
     </div>
 
